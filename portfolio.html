@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cagin - AI & Bioinformatics Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="tests/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Bubbly Background -->
+    <div class="particles" id="particles"></div>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <img class="hover-preview-img" id="hoverPreviewImg" src="" alt="Preview" />
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#home" class="logo">CAGIN</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+            <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="images/profilePicture.jpg" alt="Profile Picture" class="profile-picture" />
+                <div class="name-container">
+                    <div class="name-letters turkish"></div>
+                    <div class="name-letters english"></div>
+                </div>
+                <h2 class="title-text">AI & Bioinformatics Engineer</h2>
+                <p class="description-text">Master of Engineering Student at UC Berkeley specializing in AI-driven backend applications, machine learning, and computational biology. Valedictorian with a passion for creating technology-driven solutions that serve marginalized groups.</p>
+                <a href="#about" class="cta-button">Explore My Work</a>
+            </div>
+        </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Passionate about AI, machine learning, and creating impactful solutions</p>
+        </div>
+        <div class="experience-grid">
+            <div class="experience-card fade-in">
+                <img src="images/graduations/IzmirInstitutOfTechnology/myPicture.jpeg" alt="Academic Excellence" class="card-img about-img" />
+                <h3 class="experience-title">Academic Excellence</h3>
+                <p class="experience-description">Valedictorian in Computer Engineering, currently pursuing M.S. in Bioinformatics at UC Berkeley, specializing in AI-driven backend applications.</p>
+            </div>
+            <div class="experience-card fade-in">
+                <img src="images/competitions/hackathon_hack4treat_rankedFirst_group_picture.jpeg" alt="Hackathon Champion" class="card-img about-img" />
+                <h3 class="experience-title">Hackathon Champion</h3>
+                <p class="experience-description">1st place winner in Siemens Hack4Treat, developed AI-powered stroke rehabilitation system, and received multiple AI and ML competition awards.</p>
+            </div>
+            <div class="experience-card fade-in">
+                <img src="images/competitions/ranked_first_inHighTechAwards.jpeg" alt="High-Tech Award Winner" class="card-img about-img" />
+                <h3 class="experience-title">High-Tech Award Winner</h3>
+                <p class="experience-description">Recognized with Turkey's High-Tech Startup of the Year Award, validating the innovation and impact of my AI-driven healthcare solution.</p>
+            </div>
+            <div class="experience-card fade-in">
+                <img src="images/competitions/CalHacks_2024_Group_picture.jpg" alt="Entrepreneurial Success" class="card-img about-img" />
+                <h3 class="experience-title">Entrepreneurial Success</h3>
+                <p class="experience-description">Co-founded Epione, a startup focused on healthcare analysis, leveraging machine learning, cloud computing, and automation to improve patient care. Also, as a finalist at CalHacks 2024, developed Swipely, an AI-powered email app that learns your preferences through swipes and adapts to your habits for a smarter, clutter-free inbox.</p>
+            </div>
+            <div class="experience-card fade-in">
+                <img src="images/Programs/GlobalLeadershipProgramAtUCBerkeley_groupPhoto.JPG" alt="Leadership" class="card-img about-img swappable" data-imgs='["images/Programs/GlobalLeadershipProgramAtUCBerkeley_groupPhoto.JPG","images/Programs/GlobalLeadershipProgramAtUCBerkeley_justMeInPresentation.JPG"]' />
+                <h3 class="experience-title">Leadership</h3>
+                <p class="experience-description">Selected member of the Global Leadership Program at International House, UC Berkeley. Participated in leadership workshops, cross-cultural events, and collaborative projects with an international cohort of future leaders.</p>
+            </div>
+        </div>
+    </section>
+    <hr class="section-separator" />
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="section-header">
+            <h2 class="section-title">Professional Experience</h2>
+            <p class="section-subtitle">My journey in AI, machine learning, and data science</p>
+        </div>
+        <div class="experience-grid">
+            <div class="experience-card fade-in">
+                <h3 class="experience-title">Data Scientist</h3>
+                <p class="experience-company">Eczacıbaşı</p>
+                <p class="experience-date">Nov 2022 – Jun 2023</p>
+                <p class="experience-description">Developed machine learning models to optimize IoT sensor data collection, reducing manual intervention by 30%. Designed and deployed 30+ Python scripts for real-time data processing and automated analytics pipelines.</p>
+            </div>
+            <div class="experience-card fade-in">
+                <h3 class="experience-title">Machine Learning Engineer</h3>
+                <p class="experience-company">İşBank, Frankfurt</p>
+                <p class="experience-date">Jun 2022 – Sep 2022</p>
+                <p class="experience-description">Improved database performance by 20% through MySQL and Prolog-based optimizations. Built Python and PowerShell automation scripts to streamline data processing workflows.</p>
+            </div>
+            <div class="experience-card fade-in">
+                <h3 class="experience-title">AI Researcher</h3>
+                <p class="experience-company">Laboratory of Biomedical Micro and Nano Systems</p>
+                <p class="experience-date">Jun 2021 – Aug 2022</p>
+                <p class="experience-description">Developed custom AI-driven medical image classification models in Python and TensorFlow for diagnostic applications. Engineered real-time AI object detection systems for biomedical imaging applications.</p>
+            </div>
+            <div class="experience-card fade-in">
+                <h3 class="experience-title">AI Researcher</h3>
+                <p class="experience-company">TÜBİTAK</p>
+                <p class="experience-date">Dec 2021 – Jul 2022</p>
+                <p class="experience-description">Developed computer vision algorithms for microfluidic chip live-streaming analysis, increasing detection efficiency by 40%. Implemented AI-powered tracking models for cancer cell behavior.</p>
+            </div>
+        </div>
+    </section>
+    <hr class="section-separator" />
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="section-header">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">Academic journey and achievements</p>
+        </div>
+        <div class="education-grid">
+            <div class="education-card fade-in" id="ucb-card">
+                <img src="images/graduations/UCBerkeley/graduation_picture_UCBerkeley.jpg" alt="UC Berkeley Graduation" class="card-img edu-img swappable" data-imgs='["images/graduations/UCBerkeley/graduation_picture_UCBerkeley.jpg","images/graduations/UCBerkeley/graduation_picture_UCBerkeley_2.jpg"]' />
+                <h3 class="education-title">UC Berkeley</h3>
+                <p class="education-degree">Master of Engineering in Bioinformatics</p>
+                <p class="education-details">Awarded 3 scholarships, participated in Global Leadership Program. Key courses: Probabilistic modeling in computational biology, Machine learning in computational biology, Functional Genomics, Leadership classes, Product Design, Product Management.</p>
+            </div>
+            <div class="education-card fade-in" id="iyte-card">
+                <img src="images/graduations/IzmirInstitutOfTechnology/myPicture.jpeg" alt="Izmir Institute Graduation" class="card-img edu-img swappable" data-imgs='["images/graduations/IzmirInstitutOfTechnology/myPicture.jpeg","images/graduations/IzmirInstitutOfTechnology/valedictorianOfComputerEngineering.jpeg"]' />
+                <h3 class="education-title">Izmir Institute of Technology</h3>
+                <p class="education-degree">Bachelor of Engineering in Computer Engineering</p>
+                <p class="education-details">Graduated as valedictorian (Class rank: 1st). Technical electives: Network programming, Software engineering, Project management, Principles of data-intensive systems, Introduction to machine learning, Information security, Database system design, Text mining and NLP, Computer networks, Concepts of programming languages.</p>
+            </div>
+        </div>
+    </section>
+    <hr class="section-separator" />
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Innovative solutions and impactful applications</p>
+        </div>
+        <div class="project-carousel-container">
+            <button class="carousel-arrow left" id="carouselLeft">&#8592;</button>
+            <div class="project-carousel" id="projectCarousel"></div>
+            <button class="carousel-arrow right" id="carouselRight">&#8594;</button>
+        </div>
+    </section>
+    <hr class="section-separator" />
+    <!-- Skills Section -->
+    <section class="section" id="skills-section">
+        <div class="section-header">
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">Technologies and tools I work with</p>
+        </div>
+        <div class="skills-groups">
+            <div class="skills-group">
+                <div class="skills-group-title">Programming Languages
+                    <span class="skills-group-arrow">▼</span>
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-bar" data-skill="Python" data-level="95" data-target-width="95%">
+                        <span class="skill-bar-label">Python</span>
+                        <span class="skill-bar-level">95%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="C++" data-level="80" data-target-width="80%">
+                        <span class="skill-bar-label">C++</span>
+                        <span class="skill-bar-level">80%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="Java" data-level="75" data-target-width="75%">
+                        <span class="skill-bar-label">Java</span>
+                        <span class="skill-bar-level">75%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="R" data-level="70" data-target-width="70%">
+                        <span class="skill-bar-label">R</span>
+                        <span class="skill-bar-level">70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-group">
+                <div class="skills-group-title">AI / Machine Learning
+                    <span class="skills-group-arrow">▼</span>
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-bar" data-skill="Machine Learning" data-level="95" data-target-width="95%">
+                        <span class="skill-bar-label">Machine Learning</span>
+                        <span class="skill-bar-level">95%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="Deep Learning" data-level="90" data-target-width="90%">
+                        <span class="skill-bar-label">Deep Learning</span>
+                        <span class="skill-bar-level">90%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="TensorFlow" data-level="85" data-target-width="85%">
+                        <span class="skill-bar-label">TensorFlow</span>
+                        <span class="skill-bar-level">85%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="Computer Vision" data-level="85" data-target-width="85%">
+                        <span class="skill-bar-label">Computer Vision</span>
+                        <span class="skill-bar-level">85%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="NLP" data-level="80" data-target-width="80%">
+                        <span class="skill-bar-label">NLP</span>
+                        <span class="skill-bar-level">80%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="Bioinformatics" data-level="80" data-target-width="80%">
+                        <span class="skill-bar-label">Bioinformatics</span>
+                        <span class="skill-bar-level">80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-group">
+                <div class="skills-group-title">Cloud / DevOps
+                    <span class="skills-group-arrow">▼</span>
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-bar" data-skill="AWS" data-level="75" data-target-width="75%">
+                        <span class="skill-bar-label">AWS</span>
+                        <span class="skill-bar-level">75%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="Docker" data-level="80" data-target-width="80%">
+                        <span class="skill-bar-label">Docker</span>
+                        <span class="skill-bar-level">80%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="Kubernetes" data-level="70" data-target-width="70%">
+                        <span class="skill-bar-label">Kubernetes</span>
+                        <span class="skill-bar-level">70%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="Microservices" data-level="75" data-target-width="75%">
+                        <span class="skill-bar-label">Microservices</span>
+                        <span class="skill-bar-level">75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-group">
+                <div class="skills-group-title">Databases
+                    <span class="skills-group-arrow">▼</span>
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-bar" data-skill="SQL" data-level="85" data-target-width="85%">
+                        <span class="skill-bar-label">SQL</span>
+                        <span class="skill-bar-level">85%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="PostgreSQL" data-level="80" data-target-width="80%">
+                        <span class="skill-bar-label">PostgreSQL</span>
+                        <span class="skill-bar-level">80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-group">
+                <div class="skills-group-title">Tools
+                    <span class="skills-group-arrow">▼</span>
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-bar" data-skill="Git" data-level="90" data-target-width="90%">
+                        <span class="skill-bar-label">Git</span>
+                        <span class="skill-bar-level">90%</span>
+                    </div>
+                    <div class="skill-bar" data-skill="API Development" data-level="85" data-target-width="85%">
+                        <span class="skill-bar-label">API Development</span>
+                        <span class="skill-bar-level">85%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="section-separator" />
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's discuss opportunities and collaborations</p>
+        </div>
+        <div class="contact-links">
+            <a href="mailto:cagin@berkeley.edu" class="contact-link">Email</a>
+            <a href="https://linkedin.com/in/cagin" class="contact-link">LinkedIn</a>
+            <a href="https://github.com/cagintunc" class="contact-link">GitHub</a>
+        </div>
+    </section>
+
+    <!-- Load anime.js using defer to ensure proper loading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
+    <!-- Initialize animations after everything is loaded -->
+    <script>
+        // Function to initialize all animations
+        
+        function initializeAnimations() {
+            if (typeof anime === 'undefined') {
+                console.error('anime.js is not loaded yet, retrying in 100ms');
+                setTimeout(initializeAnimations, 100);
+                return;
+            }
+
+            // Optimized cursor animation
+            const cursor = document.querySelector('.cursor');
+            const cursorFollower = document.querySelector('.cursor-follower');
+
+            document.addEventListener('mousemove', (e) => {
+                requestAnimationFrame(() => {
+                    cursor.style.left = e.clientX + 'px';
+                    cursor.style.top = e.clientY + 'px';
+
+                    setTimeout(() => {
+                        cursorFollower.style.left = e.clientX + 'px';
+                        cursorFollower.style.top = e.clientY + 'px';
+                    }, 50);
+                });
+            });
+
+            // Ultra-minimal particle animation for maximum performance
+            const particlesContainer = document.getElementById('particles');
+            if (!particlesContainer) {
+                console.error('Particles container not found');
+                return;
+            }
+
+            const particleCount = 22;
+            const particles = [];
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                const size = 10 + Math.random() * 28;
+                particle.style.width = size + 'px';
+                particle.style.height = size + 'px';
+                particle.style.background = 'rgba(66, 153, 225, 0.22)';
+                particlesContainer.appendChild(particle);
+
+                requestAnimationFrame(() => {
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.top = Math.random() * 100 + '%';
+                });
+
+                particles.push(particle);
+            }
+
+            // Animate particles with a slight delay to avoid early paint bugs
+            setTimeout(() => {
+                try {
+                    anime({
+                        targets: particles,
+                        translateY: [-30, 0],
+                        opacity: [0, 1, 0],
+                        duration: 1500,
+                        delay: anime.stagger(300),
+                        loop: true,
+                        easing: 'easeInOutSine'
+                    });
+                } catch (error) {
+                    console.error('Failed to animate particles:', error);
+                }
+            }, 50);
+
+            // Name animation setup
+            const turkishName = 'Çağın Tunç';
+            const englishName = 'Cagin Tunc';
+            const turkishContainer = document.querySelector('.name-letters.turkish');
+            const englishContainer = document.querySelector('.name-letters.english');
+
+            if (!turkishContainer || !englishContainer) {
+                console.error('Name containers not found');
+                return;
+            }
+
+            turkishContainer.innerHTML = '';
+            englishContainer.innerHTML = '';
+
+            for (const l of turkishName) {
+                const span = document.createElement('span');
+                span.className = 'name-letter';
+                span.textContent = l === ' ' ? '\u00A0' : l;
+                turkishContainer.appendChild(span);
+            }
+            for (const l of englishName) {
+                const span = document.createElement('span');
+                span.className = 'name-letter';
+                span.textContent = l === ' ' ? '\u00A0' : l;
+                englishContainer.appendChild(span);
+            }
+
+            setTimeout(() => {
+                turkishContainer.classList.add('visible');
+                try {
+                    anime({
+                        targets: '.name-letters.turkish .name-letter',
+                        opacity: [0, 1],
+                        translateY: [20, 0],
+                        duration: 600,
+                        delay: anime.stagger(120),
+                        easing: 'easeOutCubic'
+                    });
+                } catch (error) {
+                    console.error('Failed to animate Turkish name:', error);
+                }
+            }, 200);
+
+            // Hover to toggle English name
+            const nameContainer = document.querySelector('.name-container');
+            if (nameContainer) {
+                nameContainer.addEventListener('mouseenter', () => {
+                    englishContainer.classList.add('visible');
+                    try {
+                        anime({
+                            targets: '.name-letters.english .name-letter',
+                            opacity: [0, 1],
+                            translateY: [20, 0],
+                            duration: 600,
+                            delay: anime.stagger(120),
+                            easing: 'easeOutCubic'
+                        });
+                    } catch (error) {
+                        console.error('Failed to animate English name on hover:', error);
+                    }
+                });
+
+                nameContainer.addEventListener('mouseleave', () => {
+                    englishContainer.classList.remove('visible');
+                    try {
+                        anime({
+                            targets: '.name-letters.english .name-letter',
+                            opacity: [1, 0],
+                            translateY: [0, 20],
+                            duration: 400,
+                            delay: anime.stagger(80),
+                            easing: 'easeInCubic'
+                        });
+                    } catch (error) {
+                        console.error('Failed to animate English name on leave:', error);
+                    }
+                });
+            }
+
+            // Fade in sections on scroll
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        if (entry.target.classList.contains('skill-bar')) {
+                            const width = entry.target.getAttribute('data-level') + '%';
+                            entry.target.querySelector('.skill-bar-fill').style.width = width;
+                        }
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            document.querySelectorAll('.fade-in, .skill-bar').forEach(el => {
+                observer.observe(el);
+            });
+
+            // Skills accordion
+            document.querySelectorAll('.skills-group').forEach(group => {
+                const title = group.querySelector('.skills-group-title');
+                title.addEventListener('click', () => {
+                    const isOpen = group.classList.contains('open');
+                    document.querySelectorAll('.skills-group').forEach(g => g.classList.remove('open'));
+                    if (!isOpen) {
+                        group.classList.add('open');
+                        const bars = group.querySelectorAll('.skill-bar');
+                        bars.forEach((bar, i) => {
+                            const fill = bar.querySelector('.skill-bar-fill');
+                            if (fill) {
+                                setTimeout(() => {
+                                    const width = bar.getAttribute('data-level') + '%';
+                                    fill.style.width = width;
+                                }, i * 100);
+                            }
+                        });
+                    }
+                });
+            });
+
+            // Project carousel
+            const projectData = [
+                {
+                    title: 'Single Cell Analyzer App',
+                    desc: 'Engineered a single-cell analyzer application that processed genomic data with faster computational speed, enhancing cellular analysis and advancing personalized medicine research.',
+                    img: null
+                },
+                {
+                    title: 'Local Jbrowse2 Downloader',
+                    desc: 'Engineered the Local Jbrowse2 Downloader, enabling seamless genomic data retrieval with a reduction in download time, and incorporated user feedback for continuous enhancement.',
+                    img: null
+                },
+                {
+                    title: 'Swipely - CalHacks 2024',
+                    desc: 'AI-powered email app that learns your preferences through swipes. Using NLP, it analyzes emails and adapts to your habits, creating a smarter, clutter-free inbox.',
+                    img: null
+                },
+                {
+                    title: 'SyllaBot',
+                    desc: 'NLP-based web application that scans PDF books and extracts relevant data to construct comprehensive and tailored syllabi. A game-changer for both teachers and students.',
+                    img: null
+                },
+                {
+                    title: 'Hygieia',
+                    desc: 'Innovative waste management solution leveraging automation, artificial intelligence, and image processing to revolutionize recycling practices and promote environmental sustainability.',
+                    img: null
+                },
+                {
+                    title: 'Miles of Empowerment',
+                    desc: 'Hair donation website for well-known companies, encouraging them to donate hair for cancer patients and support charitable competitions.',
+                    img: null
+                }
+            ];
+            const carousel = document.getElementById('projectCarousel');
+            let activeProject = 0;
+
+            function renderCarousel(activeIdx) {
+                carousel.innerHTML = '';
+                projectData.forEach((proj, i) => {
+                    const slide = document.createElement('div');
+                    slide.className = 'project-slide' + (i === activeIdx ? ' active' : '');
+                    slide.innerHTML = `
+                        <div class="project-slide-symbol" style="display:flex;align-items:center;justify-content:center;height:180px;background:#222e3c;">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="28" stroke="#4299e1" stroke-width="4" fill="#1a365d"/>
+                                <path d="M20 32L28 40L44 24" stroke="#9f7aea" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="project-slide-content">
+                            <div class="project-slide-title">${proj.title}</div>
+                            <div class="project-slide-desc">${proj.desc}</div>
+                        </div>
+                    `;
+                    carousel.appendChild(slide);
+                });
+                carousel.style.transform = `translateX(-${activeIdx * 360}px)`;
+            }
+
+            renderCarousel(activeProject);
+
+            document.getElementById('carouselLeft').onclick = () => {
+                if (activeProject > 0) {
+                    activeProject--;
+                    renderCarousel(activeProject);
+                }
+            };
+
+            document.getElementById('carouselRight').onclick = () => {
+                if (activeProject < projectData.length - 1) {
+                    activeProject++;
+                    renderCarousel(activeProject);
+                }
+            };
+
+            // Swipe support for carousel
+            let startX = null;
+            carousel.addEventListener('touchstart', e => {
+                startX = e.touches[0].clientX;
+            });
+            carousel.addEventListener('touchend', e => {
+                if (startX === null) return;
+                const endX = e.changedTouches[0].clientX;
+                if (endX - startX > 50 && activeProject > 0) {
+                    activeProject--;
+                    renderCarousel(activeProject);
+                } else if (startX - endX > 50 && activeProject < projectData.length - 1) {
+                    activeProject++;
+                    renderCarousel(activeProject);
+                }
+                startX = null;
+            });
+
+            // Swappable images
+            document.querySelectorAll('.swappable').forEach(img => {
+                const imgs = JSON.parse(img.getAttribute('data-imgs'));
+                let idx = 0;
+                img.addEventListener('click', () => {
+                    idx = (idx + 1) % imgs.length;
+                    img.src = imgs[idx];
+                });
+            });
+        }
+
+        // Final startup: wait for layout and defer execution
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                requestAnimationFrame(() => initializeAnimations());
+            });
+        } else {
+            requestAnimationFrame(() => initializeAnimations());
+        }
+
+    </script>
+</body>
+</html> 
