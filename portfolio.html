@@ -264,7 +264,6 @@
             </div>
         </div>
     </section>
-    <hr class="section-separator" />
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="section-header">
@@ -295,6 +294,11 @@
             // Optimized cursor animation
             const cursor = document.querySelector('.cursor');
             const cursorFollower = document.querySelector('.cursor-follower');
+
+            cursor.style.left = '-100px';
+            cursor.style.top = '-100px';
+            cursorFollower.style.left = '-100px';
+            cursorFollower.style.top = '-100px';
 
             document.addEventListener('mousemove', (e) => {
                 requestAnimationFrame(() => {
@@ -437,9 +441,13 @@
                     if (entry.isIntersecting) {
                         entry.target.classList.add('visible');
                         if (entry.target.classList.contains('skill-bar')) {
-                            const width = entry.target.getAttribute('data-level') + '%';
-                            entry.target.querySelector('.skill-bar-fill').style.width = width;
+                            const fill = entry.target.querySelector('.skill-bar-fill');
+                            if (fill) {
+                                const width = entry.target.getAttribute('data-level') + '%';
+                                fill.style.width = width;
+                            }
                         }
+
                         observer.unobserve(entry.target);
                     }
                 });

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime.js Examples</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .examples-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .example-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .example-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        .example-card h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        .example-card p {
+            color: #666;
+            margin: 0 0 15px 0;
+            line-height: 1.4;
+        }
+        .example-link {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .example-link:hover {
+            background: #2980b9;
+        }
+        .category {
+            margin-bottom: 30px;
+        }
+        .category h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎬 Anime.js Examples</h1>
+    
+    <div class="category">
+        <h2>🎨 Visual Effects & Animations</h2>
+        <div class="examples-grid">
+            <div class="example-card">
+                <h3>Additive Creature</h3>
+                <p>An animated creature made with additive blending effects</p>
+                <a href="additive-creature/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Additive Fireflies</h3>
+                <p>Beautiful firefly animation with additive blending</p>
+                <a href="additive-fireflies/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Anime.js v4 Logo Animation</h3>
+                <p>The official Anime.js v4 logo animation</p>
+                <a href="animejs-v4-logo-animation/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>SVG Line Drawing</h3>
+                <p>Animated SVG path drawing effects</p>
+                <a href="svg-line-drawing/" class="example-link">View Example</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>🎮 Interactive & Draggable</h2>
+        <div class="examples-grid">
+            <div class="example-card">
+                <h3>Draggable Playground</h3>
+                <p>Interactive draggable elements with physics</p>
+                <a href="draggable-playground/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Draggable Infinite Auto Carousel</h3>
+                <p>Infinite carousel with auto-scroll and drag support</p>
+                <a href="draggable-infinite-auto-carousel/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Draggable Mouse Scroll Snap Carousel</h3>
+                <p>Carousel with mouse scroll and snap functionality</p>
+                <a href="draggable-mouse-scroll-snap-carousel/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Animatable Follow Cursor</h3>
+                <p>Elements that follow your cursor with smooth animations</p>
+                <a href="animatable-follow-cursor/" class="example-link">View Example</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>📊 Advanced Techniques</h2>
+        <div class="examples-grid">
+            <div class="example-card">
+                <h3>Advanced Grid Staggering</h3>
+                <p>Complex grid animations with staggered timing</p>
+                <a href="advanced-grid-staggering/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Layered CSS Transforms</h3>
+                <p>Multiple CSS transform layers working together</p>
+                <a href="layered-css-transforms/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Canvas 2D</h3>
+                <p>HTML5 Canvas animations with Anime.js</p>
+                <a href="canvas-2d/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Easings Visualizer</h3>
+                <p>Visual demonstration of different easing functions</p>
+                <a href="easings-visualizer/" class="example-link">View Example</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>⏱️ Timeline & Controls</h2>
+        <div class="examples-grid">
+            <div class="example-card">
+                <h3>Timeline 50K Stars</h3>
+                <p>Performance test with 50,000 animated stars</p>
+                <a href="timeline-50K-stars/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Timeline Seamless Loop</h3>
+                <p>Seamlessly looping timeline animations</p>
+                <a href="timeline-seamless-loop/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Timeline Refresh Starlings</h3>
+                <p>Animated starlings with timeline refresh</p>
+                <a href="timeline-refresh-starlings/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Timeline Stress Test</h3>
+                <p>Stress testing timeline performance</p>
+                <a href="timeline-stress-test/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Clock Playback Controls</h3>
+                <p>Clock-style playback controls for animations</p>
+                <a href="clock-playback-controls/" class="example-link">View Example</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>📱 Scroll & Responsive</h2>
+        <div class="examples-grid">
+            <div class="example-card">
+                <h3>OnScroll Responsive Scope</h3>
+                <p>Responsive scroll-triggered animations</p>
+                <a href="onscroll-responsive-scope/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>OnScroll Sticky</h3>
+                <p>Sticky elements with scroll animations</p>
+                <a href="onscroll-sticky/" class="example-link">View Example</a>
+            </div>
+            <div class="example-card">
+                <h3>Irregular Playback Typewriter</h3>
+                <p>Typewriter effect with irregular playback</p>
+                <a href="irregular-playback-typewriter/" class="example-link">View Example</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
